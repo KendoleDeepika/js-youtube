@@ -8,7 +8,7 @@
 
 console.log(3+3);
 
-console.log("hitesg");
+console.log("hitesg")
 
 
 let name = "Deepu"
