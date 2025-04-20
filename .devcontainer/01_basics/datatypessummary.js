@@ -40,29 +40,68 @@ const bigNumber = 234567567856786789n;
 // JavaScript is a weakly typed language, which means that it will automatically convert values from one type to another when necessary.
 // This is called type coercion.
 
-const heros = ["spiderman", "batman", "superman"]; // array
-const myObj = {
-  name: "John",
-  age: 30,
-  isMarried: false,
-}; // object. The data present inside the curly braces is called an object literal
+// const heros = ["spiderman", "batman", "superman"]; // array
+// const myObj = {
+//   name: "John",
+//   age: 30,
+//   isMarried: false,
+// }; // object. The data present inside the curly braces is called an object literal
 
-// function defination : function(){}
-const myFunc = function () {
-  console.log("Hello World");
-}; // function
+// // function defination : function(){}
+// const myFunc = function () {
+//   console.log("Hello World");
+// }; // function
 
-console.log(typeof score); // number
-console.log(typeof bigNumber); // bigint
-console.log(typeof isLoggedIn); // boolean
-console.log(typeof isLoggedOut); // boolean
-console.log(typeof outsideTemp); // object
-console.log(typeof userEmail); // undefined
-console.log(typeof heros); // object
-console.log(typeof myObj); // object
-console.log(typeof myFunc); // function
-console.log(typeof scoreValue); // number
-console.log(typeof id2);
+// console.log(typeof score); // number
+// console.log(typeof bigNumber); // bigint
+// console.log(typeof isLoggedIn); // boolean
+// console.log(typeof isLoggedOut); // boolean
+// console.log(typeof outsideTemp); // object
+// console.log(typeof userEmail); // undefined
+// console.log(typeof heros); // object
+// console.log(typeof myObj); // object
+// console.log(typeof myFunc); // function
+// console.log(typeof scoreValue); // number
+// console.log(typeof id2);
+
+
+//+++++++++++++++++++++++++++++++
+
+
+// stack and heap memory
+// stack memory is used to store primitive data types
+// heap memory is used to store reference data types
+// stack memory is used to store function calls
+// heap memory is used to store objects
+// stack memory is used to store variables
+// heap memory is used to store arrays
+// stack memory is used to store function arguments
+// heap memory is used to store function return values
+
+
+let myName = "Deepu";
+let anotherName = myName;
+
+console.log(myName);
+console.log(anotherName);
+
+anotherName = 'Divya';
+console.log(myName);
+console.log(anotherName);
+
+let userOne ={
+  email : "user@google.com",
+  upi : "user@upi"
+}
+
+let userTwo = userOne
+
+userTwo.email = "deepu@goggle.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+ 
 
 
 
